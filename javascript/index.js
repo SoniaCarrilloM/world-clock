@@ -27,7 +27,7 @@ function updateTime() {
   if (sanfranciscoElement) {
     let sanfranciscoDateElement = sanfranciscoElement.querySelector(".date");
     let sanfranciscoTimeElement = sanfranciscoElement.querySelector(".time");
-    let sanfranciscoTime = moment().tz("America/San Francisco");
+    let sanfranciscoTime = moment().tz("America/San_Francisco");
 
     sanfranciscoDateElement.innerHTML = sanfranciscoTime.format("MMMM	Do YYYY");
     sanfranciscoTimeElement.innerHTML = sanfranciscoTime.format(
