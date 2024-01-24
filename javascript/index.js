@@ -22,18 +22,6 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
-
-  let sanfranciscoElement = document.querySelector("#san-francisco");
-  if (sanfranciscoElement) {
-    let sanfranciscoDateElement = sanfranciscoElement.querySelector(".date");
-    let sanfranciscoTimeElement = sanfranciscoElement.querySelector(".time");
-    let sanfranciscoTime = moment().tz("America/San_Francisco");
-
-    sanfranciscoDateElement.innerHTML = sanfranciscoTime.format("MMMM	Do YYYY");
-    sanfranciscoTimeElement.innerHTML = sanfranciscoTime.format(
-      "h:mm:ss [<small>]A[</small>]"
-    );
-  }
 }
 
 function updateCity(event) {
