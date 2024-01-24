@@ -1,5 +1,4 @@
 function updateTime() {
-  // Los Angeles
   let losAngelesElement = document.querySelector("#los-angeles");
   if (losAngelesElement) {
     let losAngelesDateElement = losAngelesElement.querySelector(".date");
@@ -12,7 +11,6 @@ function updateTime() {
     );
   }
 
-  // Paris
   let parisElement = document.querySelector("#paris");
   if (parisElement) {
     let parisDateElement = parisElement.querySelector(".date");
